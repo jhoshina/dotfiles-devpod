@@ -1,0 +1,14 @@
+[tools]
+lsd = "latest"
+neovim = "latest"
+ripgrep = "latest"
+zoxide = "latest"
+lazygit = "latest"
+fzf = "latest"
+yazi = "latest"
+ast-grep = "latest"
+fd = "latest"
+starship = "latest"
+bat = "latest"
+opencode = "latest"
+
