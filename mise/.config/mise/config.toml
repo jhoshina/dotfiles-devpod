@@ -11,4 +11,6 @@ fd = "latest"
 starship = "latest"
 bat = "latest"
 opencode = "latest"
+eza = "latest"
+tmux = "latest"
 
