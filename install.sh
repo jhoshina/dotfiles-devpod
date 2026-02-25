@@ -35,3 +35,7 @@ mkdir -p "$HOME/.config/tmux"
 mkdir -p "$HOME/.local/share/tmux/plugins"
 git clone https://github.com/tmux-plugins/tpm "$HOME/.local/share/tmux/plugins/tpm"
 
+# bat
+mkdir -p "$HOME/.config/bat"
+ln -sf "$SCRIPT_DIR/bat/.config/bat/config" "$HOME/.config/bat/config"
+
