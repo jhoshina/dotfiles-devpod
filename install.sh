@@ -32,8 +32,10 @@ ln -sf "$SCRIPT_DIR/nvim/.config/nvim/lua/plugins/colorscheme.lua" "$HOME/.confi
 
 # tmux
 mkdir -p "$HOME/.config/tmux"
+ln -sf "$SCRIPT_DIR/tmux/.config/tmux/tmux.conf" "$HOME/.config/tmux/tmux.conf"
 mkdir -p "$HOME/.local/share/tmux/plugins"
-git clone https://github.com/tmux-plugins/tpm "$HOME/.local/share/tmux/plugins/tpm"
+# git clone https://github.com/tmux-plugins/tpm "$HOME/.local/share/tmux/plugins/tpm"
+git clone -b v2.1.3 https://github.com/catppuccin/tmux.git "$HOME/.local/share/tmux/plugins/catppuccin"
 
 # bat
 mkdir -p "$HOME/.config/bat"
