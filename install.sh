@@ -35,6 +35,7 @@ mkdir -p "$HOME/.config/tmux"
 ln -sf "$SCRIPT_DIR/tmux/.config/tmux/tmux.conf" "$HOME/.config/tmux/tmux.conf"
 mkdir -p "$HOME/.local/share/tmux/plugins"
 # git clone https://github.com/tmux-plugins/tpm "$HOME/.local/share/tmux/plugins/tpm"
+mkdir -p "$HOME/.local/share/tmux/plugins/catppuccin"
 git clone -b v2.1.3 https://github.com/catppuccin/tmux.git "$HOME/.local/share/tmux/plugins/catppuccin"
 
 # bat
